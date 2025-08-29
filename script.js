@@ -56,3 +56,7 @@ callBtns.forEach(btn => {
 clearBtn.addEventListener("click", () => {
   historyList.innerHTML = "";
 });
+
+
+
+// Copy button 
