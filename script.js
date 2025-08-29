@@ -9,7 +9,6 @@ HearBtn.forEach((icon) => {
   icon.addEventListener("click", () => {
     heartCount++;
     heartcounter.textContent = heartCount; 
-    console.log("Heart Added! Total Hearts:", heartCount);
   });
 });
 
